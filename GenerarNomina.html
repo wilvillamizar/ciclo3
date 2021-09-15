@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Generar Nómina </h2>
+
+        <label> Número Nómina:</label><br>    
+        <input type="number" placeholder="00-0000" required><br><br><br>
+        
+        <label> Código del Empleado:</label><br>    
+        <input type="search" placeholder="Buscar por Código del Trabajador" required><br>
+
+        <label> Nombre Empleado:</label><br>    
+        <input type="search" placeholder="Buscar por Nombre del Empleado" required><br><br>
+
+        <button type="button" onclick="alert('Precarga los datos del Empleado en la Nómina')" >Buscar</button><br><br>
+
+    <h2> Datos de Nómina </h2>
+    
+        <label>Fecha de ingreso a la empresa:</label><br>    
+        <input type="date" placeholder="dd/mm/aaaa" required><br>
+        
+        <label>Fecha de liquidación inicio (mes):</label><br>    
+        <input type="date" placeholder="dd/mm/aaaa" required><br>
+
+        <label>Fecha de liquidación fin (mes):</label><br>    
+        <input type="date" placeholder="dd/mm/aaaa" required><br>
+
+        <label> Tiempo laborado en la empresa:</label><br>    
+        <input type="number" placeholder=" Número de días " required><br>
+
+        <label>Fecha de retiro de la Empresa:</label><br>    
+        <input type="date" placeholder="dd/mm/aaaa" required><br>
+
+        <label>Fecha de Generación Nómina:</label><br>    
+        <input type="date" placeholder="dd/mm/aaaa" required><br>
+
+        <label>Fecha de retiro de la Empresa:</label><br>    
+        <input type="date" placeholder="dd/mm/aaaa" required><br>
+
+
+    <label>Periodo de la Nómina:</label><br>    
+    <select class="form-select" aria-label="Default select example">
+        <option selected> Periodo de la Nómina </option>
+        <option value="1"> Semanal </option>
+        <option value="2"> Quincenal </option>
+        <option value="3"> Mensual </option>
+        <option value="3"> Otro </option>
+    </select><br>
+    
+    <h2> Lugar de Generación Nómina </h2>
+    
+        <label>Dirección:</label><br>    
+        <input type="text" placeholder="Dirección" required><br>
+      
+        <label>País:</label><br>    
+        <input type="text" placeholder="País" required><br>
+        
+        <label>Departamento:</label><br>    
+        <input type="text" placeholder="Departamento" required><br>
+      
+        <label>Municipio/Ciudad:</label><br>    
+        <input type="text" placeholder="Municipio/Ciudad" required><br>
+
+    <h2> Datos de pagos </h2>
+        <label> Cargo: </label><br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected> Cargo: </option>
+            <option value="1"> Gerente </option>
+            <option value="2"> Administrador </option>
+            <option value="3"> Contador </option>
+            <option value="4"> Vendedor </option>
+            <option value="5"> Asesor </option>
+                        
+        </select><br>
+        
+        <label> Tipo de Contrato:</label><br>    
+        <select class="form-select" aria-label="Default select example">
+            <option selected> Tipo de Contrato: </option>
+            <option value="1"> Contrato a término fijo </option>
+            <option value="2"> Contrato a Término Indefinido </option>
+            <option value="3"> Contrato de Obra o labor </option>
+            <option value="4"> Contrato temporal, ocasional o accidental </option>
+            <option value="5"> Contrato civil por prestación de servicios </option>
+                        
+        </select><br>
+
+        <label> Salario Diario:</label><br>    
+        <input type="number" placeholder="Salario Diario" required><br>
+
+        <label> Porcentaje de Salud:</label><br>    
+        <input type="number" placeholder="Porcentaje de Salud" required><br>
+
+        <label>Porcentaje de Pension:</label><br>    
+        <input type="number" placeholder="Porcentaje de Pension" required><br>
+
+        <label>Porcentaje ARL:</label><br>    
+        <input type="number" placeholder="Porcentaje ARL" required><br>
+
+        <label>Porcentaje Retención:</label><br>    
+        <input type="number" placeholder="Porcentaje Retención" required><br>
+
+        <label>Método de pago:</label><br>    
+        <input type="text" placeholder="Método de pago" required><br>
+        
+        <label>Nombre del Banco:</label><br>    
+        <input type="text" placeholder="Nombre del Banco"><br>
+        
+        <label>Tipo de cuenta:</label><br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected> Tipo de cuenta : </option>
+            <option value="1"> Nómina </option>
+            <option value="2"> Ahorros </option>
+            <option value="3"> Corriente </option>
+        </select><br>
+                
+        <label>Número de cuenta:</label><br>    
+        <input type="number" placeholder="Número de cuenta"><br>
+
+        <label>Método de pago:</label><br>    
+        <input type="text" placeholder="Método de pago" required><br>
+
+        <label>Fecha de pago 1:</label><br>    
+        <input type="date" placeholder="dd/mm/aaaa" required><br>
+
+        <label>Fecha de pago 2:</label><br>    
+        <input type="date" placeholder="dd/mm/aaaa" required><br>
+
+    <h2> Devengos  </h2>
+
+            <label> Días trabajados:</label><br>    
+            <input type="number" placeholder="Días trabajados" required><br>
+
+            <label> Pago por sueldo trabajado:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Transporte:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Horas extras y recargos:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Vacaciones:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Primas:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Cesantías:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Incapacidades:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Licencias:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Bonificaciones:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Compensaciones:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+    <h2> Deducciones  </h2>
+
+            <label> Salud:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Pensión:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Otras Deduccciones:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <h2> Totales  </h2>
+
+            <label> Total Devengado:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Total Deducciones:</label><br>    
+            <input type="number" placeholder="0.00" required><br>
+
+            <label> Total Nómina:</label><br>    
+            <input type="number" placeholder="0.00" required><br><br>
+
+            <button type="button" onclick="alert('Se Asigno Número a la Nómina Generada')">Guardar</button>
+            <a href="Menu.html"><button type="button" onclick="alert('No tomara los cambio y saldra')" >Cancelar</button></a>
+</body>
+</html>

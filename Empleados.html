@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Crear Empleados </title>
+</head>
+<body>
+    <h2> Crear Empleados </h2>
+    
+    <form action="">
+        <label> Código del Empleado:</label><br>    
+        <input type="text" placeholder="Código del Empleado" required><br>
+        
+        <label>Tipo de documento</label><br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected> Tipo de documento: </option>
+            <option value="1">Cédula de ciudadanía</option>
+            <option value="2">Tarjeta de identidad</option>
+            <option value="3">Registro civil de nacimiento</option>
+            <option value="4">Pasaporte</option>
+            <option value="5">Cédula de extranjería</option>
+            <option value="6">Tarjeta de extranjería </option>
+            <option value="7">Tipo de documento extranjero</option>
+            
+        </select><br>
+        
+        <label>Número de documento:</label><br>    
+        <input type="text" placeholder="Número de documento" required><br>
+       
+        <label>Primer Nombre:</label><br>    
+        <input type="text" placeholder="Primer Nombre" required><br>
+
+        <label>Otro Nombre:</label><br>    
+        <input type="text" placeholder="Otro Nombre"><br>
+
+        <label>Primer Apellido:</label><br>    
+        <input type="text" placeholder="Primer Apellido" required><br>
+      
+        <label>Segundo Apellido:</label><br>    
+        <input type="text" placeholder="Segundo Apellido"><br>
+      
+        <h2> Datos de pagos </h2>
+        <label> Cargo: </label><br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected> Cargo: </option>
+            <option value="1"> Gerente </option>
+            <option value="2"> Administrador </option>
+            <option value="3"> Contador </option>
+            <option value="4"> Vendedor </option>
+            <option value="5"> Asesor </option>
+                        
+        </select><br>
+        
+        <label> Tipo de Contrato:</label><br>    
+        <select class="form-select" aria-label="Default select example">
+            <option selected> Tipo de Contrato: </option>
+            <option value="1"> Contrato a término fijo </option>
+            <option value="2"> Contrato a Término Indefinido </option>
+            <option value="3"> Contrato de Obra o labor </option>
+            <option value="4"> Contrato temporal, ocasional o accidental </option>
+            <option value="5"> Contrato civil por prestación de servicios </option>
+                        
+        </select><br>
+
+        <label> Salario Diario:</label><br>    
+        <input type="number" placeholder="Salario Diario" required><br>
+
+        <label> Porcentaje de Salud:</label><br>    
+        <input type="number" placeholder="Porcentaje de Salud" required><br>
+
+        <label>Porcentaje de Pension:</label><br>    
+        <input type="number" placeholder="Porcentaje de Pension" required><br>
+
+        <label>Porcentaje ARL:</label><br>    
+        <input type="number" placeholder="Porcentaje ARL" required><br>
+
+        <label>Porcentaje Retención:</label><br>    
+        <input type="number" placeholder="Porcentaje Retención" required><br>
+
+        <label>Método de pago:</label><br>    
+        <input type="text" placeholder="Método de pago" required><br>
+        
+        <label>Nombre del Banco:</label><br>    
+        <input type="text" placeholder="Nombre del Banco"><br>
+        
+        <label>Tipo de cuenta:</label><br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected> Tipo de cuenta : </option>
+            <option value="1"> Nómina </option>
+            <option value="2"> Ahorros </option>
+            <option value="3"> Corriente </option>
+        </select><br>
+                
+        <label>Número de cuenta:</label><br>    
+        <input type="number" placeholder="Número de cuenta"><br>
+
+        <label>Método de pago:</label><br>    
+        <input type="text" placeholder="Método de pago" required><br>
+
+        <h2> Lugar Donde Trabaja </h2>
+    
+        <label>Dirección:</label><br>    
+        <input type="text" placeholder="Dirección" required><br>
+      
+        <label>País:</label><br>    
+        <input type="text" placeholder="País" required><br>
+        
+        <label>Departamento:</label><br>    
+        <input type="text" placeholder="Departamento" required><br>
+      
+        <label>Municipio/Ciudad:</label><br>    
+        <input type="text" placeholder="Municipio/Ciudad" required><br>
+      
+        <label>Telefono/Celular:</label><br>    
+        <input type="number" placeholder="Telefono/Celulard" required><br><br>
+      
+        <button type="button" onclick="alert('Se Guardaron los datos del Empleado')">Guardar</button>
+        <a href="ConsultaEmpleados.html"><button type="button" onclick="alert('Modificará el estado del trabajador a Eliminado')">Eliminar</button></a>
+        <a href="Menu.html"><button type="button" onclick="alert('No tomara los cambio y saldra')" >Cancelar</button></a>
+    </form>
+    
+    <p></p>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Consultar Empleados </h2>
+    <form action="Buscar">
+        <label> Código del Trabajador:</label><br>    
+        <input type="text" placeholder="Código del Trabajador" required><br>
+        
+        <label>Tipo de documento</label><br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected> Tipo de documento: </option>
+            <option value="1">Cédula de ciudadanía</option>
+            <option value="2">Tarjeta de identidad</option>
+            <option value="3">Registro civil de nacimiento</option>
+            <option value="4">Pasaporte</option>
+            <option value="5">Cédula de extranjería</option>
+            <option value="6">Tarjeta de extranjería </option>
+            <option value="7">Tipo de documento extranjero</option>
+            
+        </select><br>
+        
+    </form>            
+        <label>Número de documento:</label><br>    
+        <input type="text" placeholder="Número de documento" required><br>
+       
+        <label>Primer Nombre:</label><br>    
+        <input type="text" placeholder="Primer Nombre" required><br>
+
+        <label>Otro Nombre:</label><br>    
+        <input type="text" placeholder="Otro Nombre"><br>
+
+        <label>Primer Apellido:</label><br>    
+        <input type="text" placeholder="Primer Apellido" required><br>
+      
+        <label>Segundo Apellido:</label><br>    
+        <input type="text" placeholder="Segundo Apellido"><br><br>
+
+        <a href="ConsultaEmpleados.html"><button type="button" onclick="alert('Lista lo Empleados')" >Buscar</button></a><br><br>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nro.</th>
+            <th scope="col">Tipo de documento</th>
+            <th scope="col">Número de Documento</th>
+            <th scope="col">Nombres y Apellidos</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Editar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Cédula de ciudadanía</td>
+            <td>30.153.326</td>
+            <td>María Pérez</td>
+            <td>Activo</td>
+            <td><a href="Empleados.html"><input type="submit" value="Editar"></a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Cédula de ciudadanía</td>
+            <td>784.523.369</td>
+            <td>Ana Valencia</td>
+            <td>Activo</td>
+            <td><a href="Empleados.html"><input type="submit" value="Editar"></a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Cédula de extranjería</td>
+            <td>321.3213.321</td>
+            <td>Isabel Gomez</td>
+            <td>Inactivo</td>
+            <td><a href="Empleados.html"><input type="submit" value="Editar"></a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Cédula de extranjería</td>
+            <td>321.3213.321</td>
+            <td>María Gomez</td>
+            <td>Eliminado</td>
+            <td><a href="Empleados.html"><input type="submit" value="Editar"></a></td>
+          </tr>
+        </tbody>
+      </table>
+    
+</body>
+</html>
